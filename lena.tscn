@@ -1,3 +1,15 @@
-[gd_scene load_steps=0 format=3 uid="uid://nuo85ytsutvf"]
+[gd_scene load_steps=3 format=3 uid="uid://nuo85ytsutvf"]
 
-[node name="Lena" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://keepGambling.png" id="1_j4ks8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6ahgy"]
+size = Vector2(209, 48)
+
+[node name="keepgambling" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.5, -1.5)
+shape = SubResource("RectangleShape2D_6ahgy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_j4ks8")
