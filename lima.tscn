@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmd6pnqcnl8rs"]
+
+[ext_resource type="Texture2D" path="res://keepGambling.png" id="1_w832l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w832l"]
+size = Vector2(229, 68)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_w832l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_w832l")
