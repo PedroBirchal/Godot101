@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cytou4ow05jc5"]
+
+[ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://keepGambling.png" id="1_w832l"]
+
+[node name="Lima" type="Node2D"]
+
+[node name="SpriteDoLima" type="Sprite2D" parent="."]
+position = Vector2(491, 230)
+texture = ExtResource("1_w832l")
