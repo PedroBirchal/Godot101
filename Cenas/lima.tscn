@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cytou4ow05jc5"]
 
-[ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://keepGambling.png" id="1_w832l"]
+[ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://Sprites/keepGambling.png" id="1_1g3pe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w832l"]
 size = Vector2(229, 68)
@@ -8,7 +8,7 @@ size = Vector2(229, 68)
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_w832l")
+texture = ExtResource("1_1g3pe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_w832l")
