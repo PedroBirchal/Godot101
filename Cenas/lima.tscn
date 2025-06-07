@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cytou4ow05jc5"]
+[gd_scene load_steps=4 format=3 uid="uid://cytou4ow05jc5"]
 
 [ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://Sprites/keepGambling.png" id="1_1g3pe"]
+[ext_resource type="Script" uid="uid://dwd612s5c1c7c" path="res://Scripts/LimaGambler.gd" id="1_4a3cb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w832l"]
 size = Vector2(229, 68)
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="Gambler" type="CharacterBody2D"]
+script = ExtResource("1_4a3cb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_1g3pe")

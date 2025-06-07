@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="Godot101"
-run/main_scene="uid://bbvmqks1d40pp"
+run/main_scene="uid://cytou4ow05jc5"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Sprites/icon.svg"
