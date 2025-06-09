@@ -8,6 +8,7 @@
 [node name="Fundo" parent="." instance=ExtResource("1_csek2")]
 
 [node name="keepgambling" parent="." instance=ExtResource("1_fd8wr")]
+position = Vector2(-2, 2)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(5, 5)
+zoom = Vector2(6, 6)
