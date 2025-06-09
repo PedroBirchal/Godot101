@@ -16,7 +16,7 @@ var current_velocity : Vector2 = Vector2.ZERO
 func _physics_process(delta: float) -> void:
 	current_velocity.y +=  gravity * delta * gravity_multiplier
 	
-	if(Input.is_action_just_pressed("Jump")):
+	if(Input.is_action_just_pressed("jump")):
 		current_velocity.y = -jump_force
 	
 	var interpolator : float = ((current_velocity.y / jump_force) + 1) / 2
