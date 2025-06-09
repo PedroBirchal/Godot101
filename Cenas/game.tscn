@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvqd2ojvsnbs2"]
+
+[ext_resource type="PackedScene" uid="uid://ciebqtqvvngqd" path="res://Cenas/fundo.tscn" id="1_csek2"]
+[ext_resource type="PackedScene" uid="uid://bbvmqks1d40pp" path="res://Cenas/lena.tscn" id="1_fd8wr"]
+
+[node name="lenaGame" type="Node2D"]
+
+[node name="Fundo" parent="." instance=ExtResource("1_csek2")]
+
+[node name="keepgambling" parent="." instance=ExtResource("1_fd8wr")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(5, 5)

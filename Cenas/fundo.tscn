@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciebqtqvvngqd"]
+
+[ext_resource type="Texture2D" uid="uid://hkjh7o8m0g0x" path="res://Sprites/fundo do mar-Sheet.png" id="1_3harl"]
+
+[node name="Fundo" type="Node2D"]
+texture_repeat = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+texture = ExtResource("1_3harl")
+region_enabled = true
+region_rect = Rect2(0, 0, 224, 256)
