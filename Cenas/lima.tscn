@@ -1,16 +1,18 @@
 [gd_scene load_steps=4 format=3 uid="uid://cytou4ow05jc5"]
 
-[ext_resource type="Texture2D" uid="uid://bujnjr58om34h" path="res://Sprites/keepGambling.png" id="1_1g3pe"]
 [ext_resource type="Script" uid="uid://dwd612s5c1c7c" path="res://Scripts/LimaGambler.gd" id="1_4a3cb"]
+[ext_resource type="Texture2D" uid="uid://e3bthv6bqtng" path="res://Sprites/Dragonildo/DragonildoRED-Sheet.png" id="2_4a3cb"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_w832l"]
-size = Vector2(229, 68)
+[sub_resource type="CircleShape2D" id="CircleShape2D_4a3cb"]
 
-[node name="Gambler" type="CharacterBody2D"]
+[node name="Dragonildo" type="CharacterBody2D"]
 script = ExtResource("1_4a3cb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_1g3pe")
+scale = Vector2(-1, 1)
+texture = ExtResource("2_4a3cb")
+hframes = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_w832l")
+position = Vector2(-1.25, -1)
+shape = SubResource("CircleShape2D_4a3cb")

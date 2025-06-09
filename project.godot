@@ -11,15 +11,18 @@ config_version=5
 [application]
 
 config/name="Godot101"
-run/main_scene="uid://cytou4ow05jc5"
+run/main_scene="uid://8r2c104fqsu7"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://Sprites/icon.svg"
 
-[display]
-
 window/size/viewport_width=648
 window/size/viewport_height=1152
+[display]
 
+
+textures/canvas_textures/default_texture_filter=0
+
+[rendering]
 [input]
 
 jump={
@@ -28,6 +31,3 @@ jump={
 ]
 }
 
-[rendering]
-
-textures/canvas_textures/default_texture_filter=0

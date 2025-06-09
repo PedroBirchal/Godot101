@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://8r2c104fqsu7"]
+
+[ext_resource type="PackedScene" uid="uid://cytou4ow05jc5" path="res://Cenas/lima.tscn" id="1_i8cmp"]
+
+[node name="LimaGame" type="Node2D"]
+
+[node name="Dragonildo" parent="." instance=ExtResource("1_i8cmp")]
+gravity_multiplier = 25.0
+jump_force = 150.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
